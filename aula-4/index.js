@@ -28,11 +28,11 @@ const cuentaMaria = new cuentaCorriente();
 cuentaMaria.numero = "2";
 cuentaMaria.agencia = "002";
 cuentaMaria.cliente = cliente2;
+console.log(cuentaMaria.cliente);
 
-if (cuentaMaria.cliente)
+cuentaMaria.cliente = 0;
+
     console.log(cuentaMaria.cliente);
-else
-    console.log(cuentaMaria);
 
 /*
 cuentaLeonardo.trasnsferirParaCuenta(100, cuentaMaria);
